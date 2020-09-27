@@ -1,0 +1,493 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+*{
+    outline:0 !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+ul{
+    list-style: none;
+}
+
+html,
+body{
+    height:100%;
+}
+
+/*================================ Header Section============================== */
+.header-top {
+    height: 100px;
+    /* background-color: rgba(44, 39, 39, 0.356); */
+    background:white;
+}
+
+.logo-header{
+    height:90px;
+    width:100px;
+}
+
+
+.contact a {
+    color: black;
+    font-size: 12px;
+}
+
+.contact-address > a{
+    color: black !important;
+    font-size: 12px;
+}
+
+.contact a:hover {
+    color: rgba(255, 0, 234, 0.87);;
+
+}
+
+.contact i {
+    color: black;
+    font-size: 20px;
+}
+
+.social-icons a {
+    font-size: 15px;
+    color: black;
+    margin-right: 20px;
+}
+
+.social-icons a:hover {
+    color: rgba(255, 0, 234, 0.911);
+}
+
+.menu-a-items {
+    font-size: 13px;
+    color: black;
+}
+
+.menu-a-items:hover {
+    color: rgba(255, 0, 234, 0.719)!important;
+}
+
+/*============================== //Header Section====================================== */
+
+
+/*======================= Main section===================== */
+.main-section {
+    background-image: url("img/ballet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*=================================Navbar section======================================*/
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li{
+    margin-left: 15px;
+}
+
+.navbar-menu li a:hover{
+    color:rgb(233, 61, 233);
+}
+
+.navbar-menu li a{
+    text-transform: uppercase;
+    color: white;
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+}
+
+.mobile-menu{
+    background-color: rgba(255, 251, 251, 0.678);
+    display: none;
+    z-index: 1;
+}
+
+.mobile-menu.open-menu{
+    display: block;
+}
+
+.navbar-mobile-menu li{
+    margin:10px 0;
+}
+
+.navbar-mobile-menu li a{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+}
+/*================================ //navbar section =========================*/
+.overlay-main{
+    background: linear-gradient(to right top,rgba(255, 255, 0, 0.438), rgba(119, 53, 119, 0.397),rgba(68, 8, 68, 0.363), rgba(255, 0, 0, 0.301), rgba(0, 0, 255, 0.274));
+    width:900px;
+}
+
+.overlay-register{
+    width:600px;
+    background: rgba(243, 240, 240, 0.082);
+}
+
+.overlay-register:hover{
+    background:linear-gradient(to left top,rgba(255, 255, 255, 0.219),rgba(0, 0, 0, 0.671));
+ 
+}
+
+
+
+
+.main-section {
+    vertical-align: middle;
+}
+
+
+.m-over .overlay, .overlay-for-register {
+    background: linear-gradient(to right top,rgba(255, 255, 0, 0.438), rgba(119, 53, 119, 0.397),rgba(68, 8, 68, 0.363), rgba(255, 0, 0, 0.301), rgba(0, 0, 255, 0.274));
+    color: #f1f1f1;
+}
+
+.m-over .overlay,{
+    width: 1400px;
+}
+
+.overlay-for-register{
+    width:600px;
+    background: rgba(243, 240, 240, 0.082);
+    transition: 30s !important;
+    cursor: pointer;
+}
+
+.overlay-for-register:hover{
+    background:linear-gradient(to left top,rgba(255, 255, 255, 0.219),rgba(0, 0, 0, 0.671));
+ 
+}
+
+
+.main-section-h1-item{
+    font-size: 65px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-section-p-item{
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.border-main{
+    background:white;
+    height:1px;
+    width:150px;
+
+}
+
+.main-section-a-item-for-register{
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-section-a-item-for-register:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.main-section-a-item-for-register:hover{
+    color:rgb(248, 248, 0);
+    transition: 0.9s;
+    text-decoration: underline;
+}
+/*========================= //Main section================== */
+
+/*=============================== About section ==========================================*/
+/* .about-section{
+    background: linear-gradient(to right top,rgba(255, 255, 0, 0.226),rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.356));
+} */
+
+.p-item-for-about-section{
+    font-size: 25px;
+    /* color:white; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background: linear-gradient(to right top,rgb(255, 255, 0), rgb(119, 53, 119),rgba(68, 8, 68, 0.973), rgba(243, 73, 73, 0.74), rgba(0, 0, 255, 0.699));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: black;
+}
+/*=================================== /About section =======================================*/
+
+/*============================================= FairFrade section============== */
+.fair-trade-section{
+    background-image: url('img/bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.h1-item-for-fair-trade-section, .p-item-for-fair-trade-section{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h1-item-for-fair-trade-section{
+    font-size:50px;
+}
+
+.p-item-for-fair-trade-section{
+    font-size: 30px;
+    font-weight: bold;
+}
+/*===========================================//FairFrade section=============== */
+
+/* To gallery */
+.to-gallery-section{
+    background-image: url('img/bg-pencil.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.gallery-img{
+    width:100%;
+    height:100%;
+    border-radius:20px; 
+    object-fit: cover;  
+    object-position: top; 
+}
+
+.for-position{
+    object-position: top;
+}
+
+.cont-gallery-section{
+    position:relative;
+}
+
+.overlay-gallery{
+    position: absolute; 
+    bottom:0;
+    top:0;
+    left:0;
+    /* background: rgba(255, 0, 234, 0); */
+    color: #f1f1f1; 
+    height: 100%;
+    width:100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.cont-gallery-section:hover .overlay-gallery {
+    opacity: 1;
+  }
+
+  .gallery-img:hover .overlay-gallery{
+      background-color: rgba(255, 0, 234, 0.575);
+  }
+
+@media (max-width:800px){
+    .cont-sketch-section{
+        margin-top:35px;
+    }
+}
+/* To gallery */
+
+
+/*=============================================== Sketchs ==========================*/
+
+.sketch-img{
+    height:300px;
+    width:100%;
+    object-fit: cover;
+    border-radius: 30px;
+    object-position: top;
+}
+
+.cont-sketch-section{
+    position:relative;
+}
+
+.overlay-for-first-line{
+     position: absolute; 
+     bottom:0;
+     top:0;
+     left:0;
+     background: rgba(255, 0, 234, 0.356);
+     color: #f1f1f1; 
+     width: 100%;
+     transition: .5s ease;
+     opacity:0;
+     color: white;
+     height: 100%;
+     font-size: 20px;
+     text-align: center;
+     border-radius: 30px;
+     cursor: pointer;
+}
+
+.cont-sketch-section:hover .overlay-for-first-line {
+    opacity: 1;
+}
+
+@media (max-width:800px){
+    .cont-sketch-section{
+        margin-top:35px;
+    }
+}
+/*==================== //Sketchs============================ */
+
+/*=========================== Icons and other =======================*/
+.logo-first-for-icons-section{
+    width:250px;
+    height:300px;
+
+}
+
+.logo-second-for-icons-section{
+    width:300px;
+    height:280px;
+}
+
+.logo-third-for-icons-section{
+    width:360px;
+    height:300px;
+}
+
+.logo-fourth-for-icons-section{
+    width:290px;
+    height:250px;
+}
+
+/*========================== //Icons and other ========================*/
+
+/*============================= Arrow back ==================================*/
+.arrow-back{
+    font-size:60px;
+    /* color:rgba(255, 0, 234, 0.356); */
+    background: rgb(233, 61, 233);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: fixed;
+    z-index: 1;
+    right:0;
+    bottom: 0;
+    left:1800px;    
+}
+
+.arrow-back:hover{
+    background: linear-gradient(to right top,black,rgb(233, 61, 233));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/* ============================= //Arrow back ========================*/
+
+/*==================================== Footer ================================*/
+footer{
+    background-image: url("img/ballet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.overlay-for-footer{
+    background-color:rgba(0, 0, 0, 0.733);
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:0;
+}
+
+.footer-ul{
+    color:white;
+}
+
+.footer-ul > li > a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-ul > li{
+    list-style: none;
+}
+
+.p-item-footer, .footer-ul > li > a{
+    font-size:19px;
+    font-weight: bold;
+}
+
+.footer-ul > li > a:hover{
+    color:rgb(233, 61, 233);
+    text-decoration: none;
+    transition:0.3s;
+}
+
+.font-for-texts-footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.border-bottom{
+    width:150px;
+}
+
+.button-footer{
+    border:none;
+}
+
+
+.button-footer:hover{
+    background-color:rgb(233, 61, 233);
+    color:white;
+    border:none;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.a-item-footer{
+    color: rgb(233, 61, 233);
+    font-size:18px;
+}
+
+.a-item-footer:hover{
+    text-decoration: underline;
+    transition:0.3s;
+}
+/*==================================== //Footer ============================*/
